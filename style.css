@@ -1,22 +1,132 @@
-#greenbody {
-    color: green;
-    font-size: 10px; 
-    font-family: "Open Sans", sans-serif;
-  }
-
-  .rectangle{
-    width:200px;
-    height:300px;
-    background-color:#000000;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    }
-
-    div {
-      width: 500px;
-      height: 200px;
-      border: 10px solid #2196F3;
-      background-color: #49c449;
-    }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.clearfix{
+  clear:both;
+}
+.header-banner{
+  padding-top:35px;
+  padding-bottom:100px;
+  color:#ffffff;
+  font-family:Helvetica, serif;
+  font-weight:100;
+  background-image:url("https://grapesjs.com/img/bg-gr-v.png"), url("https://grapesjs.com/img/work-desk.jpg");
+  background-attachment:scroll, scroll;
+  background-position:left top, center center;
+  background-repeat:repeat-y, no-repeat;
+  background-size:contain, cover;
+}
+.container-width{
+  width:90%;
+  max-width:1150px;
+  margin:0 auto;
+}
+.logo-container{
+  float:left;
+  width:50%;
+}
+.logo{
+  background-color:#fff;
+  border-radius:5px;
+  width:130px;
+  padding:10px;
+  min-height:30px;
+  text-align:center;
+  line-height:30px;
+  color:#4d114f;
+  font-size:23px;
+}
+.menu{
+  float:right;
+  width:50%;
+}
+.menu-item{
+  float:right;
+  font-size:15px;
+  color:#eee;
+  width:130px;
+  padding:10px;
+  min-height:50px;
+  text-align:center;
+  line-height:30px;
+  font-weight:400;
+}
+.lead-title{
+  margin:150px 0 30px 0;
+  font-size:40px;
+}
+.sub-lead-title{
+  max-width:650px;
+  line-height:30px;
+  margin-bottom:30px;
+  color:#c6c6c6;
+}
+.lead-btn{
+  margin-top:15px;
+  padding:10px;
+  width:190px;
+  min-height:30px;
+  font-size:20px;
+  text-align:center;
+  letter-spacing:3px;
+  line-height:30px;
+  background-color:#d983a6;
+  border-radius:5px;
+  transition:all 0.5s ease;
+  cursor:pointer;
+}
+.lead-btn:hover{
+  background-color:#ffffff;
+  color:#4c114e;
+}
+.lead-btn:active{
+  background-color:#4d114f;
+  color:#fff;
+}
+.am-sect{
+  padding-top:100px;
+  padding-bottom:100px;
+  font-family:Helvetica, serif;
+}
+.blk-sect{
+  padding-top:100px;
+  padding-bottom:100px;
+  background-color:#222222;
+  font-family:Helvetica, serif;
+}
+.blk-title{
+  color:#fff;
+  font-size:25px;
+  text-align:center;
+  margin-bottom:15px;
+}
+.blk-desc{
+  color:#b1b1b1;
+  font-size:15px;
+  text-align:center;
+  max-width:700px;
+  margin:0 auto;
+  font-weight:100;
+}
+#ivwf{
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+  background-image:none;
+  background-image-color:unset;
+  background-image-gradient:unset;
+  background-image-gradient-dir:unset;
+  background-image-gradient-type:unset;
+  color:#ffffff;
+  border:0px solid black;
+}
+#ir19{
+  border-radius:5px 5px 10px 10px;
+  width:200px;
+  font-family:Georgia, serif;
+  color:#000000;
+}
